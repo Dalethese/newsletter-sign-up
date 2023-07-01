@@ -6,4 +6,9 @@ export const colors = {
   white: "hsl(0, 0%, 100%)",
   blazingOrange: "#ff693e",
   rapsberryPink: "#fe5378",
+  red: {
+    100: "hsl(0, 100%, 95%)",
+    500: "hsl(1, 41%, 65%)",
+    900: "hsl(1, 90%, 76%)",
+  },
 };

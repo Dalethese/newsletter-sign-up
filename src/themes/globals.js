@@ -4,13 +4,13 @@ import { colors } from "./colors";
 export const GlobalStyles = createGlobalStyle`
   @font-face {
     font-family: 'Roboto';
-    src: url('../../public/fonts/Roboto-Regular.ttf') format('truetype');
+    src: url('/fonts/Roboto-Regular.ttf') format('truetype');
     font-weight: normal;
   }
 
   @font-face {
     font-family: 'Roboto-Bold';
-    src: url('../../public/fonts/Roboto-Bold.ttf') format('truetype');
+    src: url('/fonts/Roboto-Bold.ttf') format('truetype');
     font-weight: bold;
   }
 
@@ -22,9 +22,12 @@ export const GlobalStyles = createGlobalStyle`
     --moz-osx-font-smoothing: grayscale;
   }
 
-  body {
+  body, html {
     width: 100%;
     height: 100vh;
+  }
+
+  body {
     background-color: ${colors.charcoalGrey};
     display: grid;
     place-content: center;

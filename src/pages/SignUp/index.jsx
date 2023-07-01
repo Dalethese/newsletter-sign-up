@@ -1,36 +1,25 @@
 import { Container, SignUpContainer } from "./styles";
-import image from "../../assets/images/illustration-sign-up-mobile.svg";
-import successIcon from "../../assets/images/icon-success.svg";
+import mobileImg from "../../assets/images/illustration-sign-up-mobile.svg";
+import desktopImg from "/images/illustration-sign-up-desktop.svg";
 import { Form } from "../../components/Form";
+import List from "../../components/List";
 
+// eslint-disable-next-line react/prop-types
 export function SignUp() {
   return (
     <Container>
-      <img src={image} alt="design de ilustrativo" />
+      <picture>
+        <source media="(min-width: 768px)" srcSet={desktopImg} />
+        <img
+          src={mobileImg}
+          className="bannerImg"
+          alt="design de ilustrativo"
+        />
+      </picture>
       <SignUpContainer>
         <h1>Stay updated!</h1>
         <p>Join 60,000+ product managers receiving monthly updates on:</p>
-        <ul>
-          <li>
-            <span>
-              <img className="checkIcon" src={successIcon} alt="success icon" />
-            </span>
-            Product discovery and building what matters
-          </li>
-          <li>
-            <span>
-              <img className="checkIcon" src={successIcon} alt="success icon" />
-            </span>
-            Measuring to ensure updates are a success
-          </li>
-          <li>
-            <span>
-              <img className="checkIcon" src={successIcon} alt="success icon" />
-            </span>
-            And much more!
-          </li>
-        </ul>
-
+        <List />
         <Form />
       </SignUpContainer>
     </Container>
