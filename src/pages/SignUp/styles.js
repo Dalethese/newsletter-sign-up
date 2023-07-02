@@ -7,23 +7,32 @@ export const Container = styled.div`
   max-width: 375px;
   height: 100%;
   background: ${colors.white};
+  overflow: hidden;
 
-  .bannerImg {
+  picture img {
     width: 100%;
   }
 
   ${media.md`
+    width: fit-content;
     max-width: none;
+    max-height: 90vh;
+    border-radius: 2rem;
+    padding: 1rem;
+
     display: flex;
     flex-direction: row-reverse;
-    gap: 2rem;
-    padding: 2rem;
-    border-radius: 2rem;
+    justify-content: center;
+
+    picture img {
+      width: 100%;
+      height: 30rem;
+    }
   `}
 `;
 
 export const SignUpContainer = styled.div`
-  /* padding: 4rem; */
+  padding: 1.2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -44,6 +53,6 @@ export const SignUpContainer = styled.div`
   }
 
   ${media.md`
-    width: 25rem;
+    width: 30rem;
   `}
 `;

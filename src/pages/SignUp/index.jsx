@@ -10,11 +10,7 @@ export function SignUp() {
     <Container>
       <picture>
         <source media="(min-width: 768px)" srcSet={desktopImg} />
-        <img
-          src={mobileImg}
-          className="bannerImg"
-          alt="design de ilustrativo"
-        />
+        <img src={mobileImg} alt="design de ilustrativo" />
       </picture>
       <SignUpContainer>
         <h1>Stay updated!</h1>

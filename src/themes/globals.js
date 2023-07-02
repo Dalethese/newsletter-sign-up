@@ -35,4 +35,9 @@ export const GlobalStyles = createGlobalStyle`
     letter-spacing: .8px;
     color: ${colors.darkSlateGrey}
   }
+
+  .app {
+    width: 100%;
+    height: 100%;
+  }
 `;
