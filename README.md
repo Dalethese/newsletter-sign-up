@@ -55,7 +55,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://dalethese-newsletter-sign-up.netlify.app](https://dalethese-newsletter-sign-up.netlify.app){:target="_blank"}
+- Live Site URL: [https://dalethese-newsletter-sign-up.netlify.app](https://dalethese-newsletter-sign-up.netlify.app)
 
 #
 
@@ -92,5 +92,5 @@ In this section, I will outline the areas in which I plan to continue focusing o
 
 ## Author
 
-- Frontend Mentor - [@Dalethese](https://www.frontendmentor.io/profile/yourusername){:target="_blank"}
-- Instagram - [Jonas Dalethese](https://www.instagram.com/jonas_daleth/){:target="_blank"}
+- Frontend Mentor - [@Dalethese](https://www.frontendmentor.io/profile/yourusername)
+- Instagram - [Jonas Dalethese](https://www.instagram.com/jonas_daleth/)
