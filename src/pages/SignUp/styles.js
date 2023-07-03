@@ -5,9 +5,9 @@ import { media } from "../../themes/media";
 export const Container = styled.div`
   width: 100%;
   max-width: 375px;
-  height: 100%;
+  height: 100vh;
   background: ${colors.white};
-  overflow: hidden;
+  overflow: scroll;
 
   picture img {
     width: 100%;
@@ -16,6 +16,7 @@ export const Container = styled.div`
   ${media.md`
     width: fit-content;
     max-width: none;
+    height: auto;
     max-height: 90vh;
     border-radius: 2rem;
     padding: 1rem;
